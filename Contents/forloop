@@ -1,0 +1,17 @@
+for i in 1 2 3
+do 
+echo " number is $i"
+done
+
+echo " second way of loop"
+for j in shakir ahmad bhat
+do
+echo " name is $j"
+done
+
+echo "3rd way of loop"
+
+for k in {1..5}
+do
+echo "number is $k"
+done

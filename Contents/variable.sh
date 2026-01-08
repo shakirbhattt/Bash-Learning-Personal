@@ -16,5 +16,11 @@ echo " my name is $name and age is $age "
 HOSTNAME=$(hostname)
 echo "name of this machine is $HOSTNAME"
 
+#take input from user and print
+echo " what is your name"
+read name
 
+read -p "what is your age" age
+
+echo " Name is $name and age is $age"
 
